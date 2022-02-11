@@ -147,7 +147,21 @@ We have provided test data for all the resources.
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+
+    Some of the core features of Node.js is that it uses Javascript and paradigm for both client and server. Using the same language makes coding between client and server easier. Because we use Javascript through Node.js, the process is asynchronous and single-threaded. Using Node.js and Express.js we can build RESTful JSON services, build and serve single page applications, and service static content. Using these features are compatible with middleware and simple to create. 
+
 1. Understand and explain the use of Middleware.
+
+    Middleware are software that facilities communication and actions between two different applications or services. It provides different capablities and services that do not exist within the system. For example Data/Api management, and varies authentication services are handled by middleware.
+
 1. The basic principles of the REST architectural style.
+
+    The basic principles of RESTful style is that Everything is a resource. That each of those resources are accessible through an unique URL. Those resources can have multiple representations. The communication happens through HTTP. And the resources management happens through HTTP methods. 
+
 1. Understand and explain the use of Express Routers.
+
+    Express Routers exist inside an Express Application. It determines what the application returns when the client requests specific endpoints. These endpoitns can contain specific HTTP request methods such ass GET, DELETE, POST, PUSH, and etc.  
+    
 1. Describe tooling used to manually test the correctness of an API.
+
+    There are currently two great methods to test the correctness of an API and that is using either HTTPie or POSTMAN as a tool to manually test. You can utilize GET/PUT/PUSH/DELETE and other methods to test your api endpoints.

@@ -23,6 +23,3 @@ server.listen(PORT, () => {
      console.log('server listening on 9000')
 })
 
-// server.use('*', (req, res) => {
-//     res.send('<h1> Hello, sprint challenge! </h1>');
-// })

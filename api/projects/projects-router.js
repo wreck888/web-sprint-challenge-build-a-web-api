@@ -1,4 +1,3 @@
-// Write your "projects" router here!
 const express = require('express')
 
 const Project = require('./projects-model');
@@ -67,7 +66,7 @@ router.get('/:id/actions', validateProjId, (req, res, next) => {
         })
         .catch(error => {
             res.status(500).json({
-                message: 'ERROR UPDATING PROJECT'
+                message: 'ERROR GETTING ACTION'
             })
         })
 })

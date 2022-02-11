@@ -1,4 +1,3 @@
-// add middlewares here related to projects
 const Project = require('../projects/projects-model')
 
 function validateProj(req, res, next) {
@@ -7,11 +6,9 @@ function validateProj(req, res, next) {
         res.status(400).json({
             message: "Project name and description have not been completed"
         })
-    
     }else {
         next();
     }
-    
 }
 
 function validateProjId(req, res, next) {
